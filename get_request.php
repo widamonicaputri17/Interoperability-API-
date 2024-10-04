@@ -1,7 +1,7 @@
 <?php
 $url = 'https://jsonplaceholder.typicode.com/posts';
 
-// Inisialisasi curl  
+// Inisialisasi curl
 $ch = curl_init();
 
 // Opsi curl untuk mengambil URL dengan metode GET
@@ -20,5 +20,4 @@ $data = json_decode($response, true);
 // Menampilkan 5 data pertama
 $first_five = array_slice($data, 0, 5);
 print_r($first_five);
-
 ?>
