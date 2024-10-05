@@ -122,8 +122,5 @@ Kapan Menggunakan: Gunakan DELETE ketika aplikasi perlu menghapus data dari serv
 Kesimpulan:
 GET digunakan untuk mengambil data.
 POST digunakan untuk mengirim dan membuat data baru.
-<<<<<<< HEAD
 DELETE digunakan untuk menghapus data.
-=======
-DELETE digunakan untuk menghapus data.
->>>>>>> 813433832081c606b3906e1b622ae5cfed0f4017
+
